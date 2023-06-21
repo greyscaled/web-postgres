@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "allowJs": false,
+        "allowSyntheticDefaultImports": true,
+        "declaration": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "lib": ["DOM", "ES2022"],
+        "module": "ES2022",
+        "moduleResolution": "node",
+        "outDir": "dist",
+        "sourceMap": true,
+        "strict": true
+    },
+    "include": ["src"]
+}

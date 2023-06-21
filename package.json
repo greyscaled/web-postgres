@@ -1,0 +1,36 @@
+{
+    "name": "web-postgres",
+    "version": "0.0.0",
+    "description": "node-postgres built for the browser.",
+    "keywords": [
+        "postgres",
+        "pg",
+        "pg-web",
+        "node-postgres",
+        "web-postgres"
+    ],
+    "homepage": "https://github.com/greyscaled/web-postgres",
+    "bugs": "https://github.com/greyscaled/web-postgres/issues",
+    "license": "MIT",
+    "author": {
+        "email": "greybarkans@gmail.com",
+        "name": "Grey Barkans",
+        "url": "https://github.com/greyscaled"
+    },
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/greyscaled/web-postgres"
+    },
+    "devDependencies": {
+        "@types/node": "^20.3.1",
+        "esbuild": "^0.18.6",
+        "esbuild-plugin-polyfill-node": "^0.3.0",
+        "prettier": "^2.8.8",
+        "typescript": "^5.1.3"
+    },
+    "dependencies": {
+        "buffer": "^6.0.3",
+        "pg-protocol": "^1.6.0"
+    }
+}
